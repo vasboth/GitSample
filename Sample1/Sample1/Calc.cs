@@ -8,5 +8,11 @@ namespace Sample1
 {
     class Calc
     {
+        public static double Add(double x, double y)
+        {
+            double result = x + y;
+            return result;
+        }
+
     }
 }
