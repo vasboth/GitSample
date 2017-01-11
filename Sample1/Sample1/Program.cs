@@ -10,6 +10,12 @@ namespace Sample1
     {
         static void Main(string[] args)
         {
+            int x = 3;
+            int y = 4;
+
+            int sum = x + y;
+            Console.WriteLine("Sum of {0} and {1} is", x, y, sum );
+            Console.ReadLine();
         }
     }
 }
