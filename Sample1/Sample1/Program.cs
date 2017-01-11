@@ -15,7 +15,12 @@ namespace Sample1
 
             int sum = x + y;
             Console.WriteLine("Sum of {0} and {1} is", x, y, sum );
+
+            int diff = x - y;
+            Console.WriteLine("Difference of {0} and {1} is", x, y, diff);
             Console.ReadLine();
+
+
         }
     }
 }
