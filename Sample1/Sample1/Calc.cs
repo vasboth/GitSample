@@ -14,7 +14,13 @@ namespace Sample1
             return result;
         }
 
-        public static double Div(double x, double y)
+        public static int Div(int x, int y)
+        {
+            int result = x / y;
+            return result;
+        }
+
+        public static double DivD(double x, double y)
         {
             double result = x / y;
             return result;
