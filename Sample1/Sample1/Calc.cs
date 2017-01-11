@@ -14,5 +14,11 @@ namespace Sample1
             return result;
         }
 
+        public static double Div(double x, double y)
+        {
+            double result = x / y;
+            return result;
+        }
+
     }
 }
