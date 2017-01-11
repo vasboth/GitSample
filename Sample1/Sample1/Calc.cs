@@ -26,5 +26,10 @@ namespace Sample1
             return result;
         }
 
+        public double Mult(double x, double y)
+        {
+            double result = x * y;
+            return result;
+        }
     }
 }

@@ -13,5 +13,7 @@ namespace Sample1
         int Div(int x, int y);
 
         double DivD(double x, double y);
+
+        double Mult(double x, double y);
     }
 }
