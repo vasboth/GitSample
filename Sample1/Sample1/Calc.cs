@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Sample1
 {
-    class Calc
+    class Calc : ICalc
     {
-        public static double Add(double x, double y)
+        public double Add(double x, double y)
         {
             double result = x + y;
             return result;
         }
 
-        public static int Div(int x, int y)
+        public int Div(int x, int y)
         {
             int result = x / y;
             return result;
         }
 
-        public static double DivD(double x, double y)
+        public double DivD(double x, double y)
         {
             double result = x / y;
             return result;
